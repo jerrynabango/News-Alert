@@ -1,0 +1,55 @@
+{% extends 'base.html' %}{% block content %}
+<!-- styles block -->
+{% block styles %} {{ super() }}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'styles.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+<link href="https://fonts.google.com/specimen/Kenia/" rel="stylesheet"> {% endblock %}
+
+
+<div class=" container news">
+    <h2 class="text-center animated slideInRight ">~NEWS SOURCES~</h2>
+    {% for source in sources|batch(4) %}
+    <div class="row ">
+        {% for source in source %}
+        <div class="col-md-3 ">
+            <div class="card text-center border-secondary mb-3 box">
+                <p {{source.name}}></p>
+
+                <div class="card-body ">
+                    <div class="card-title "><a href="{{source.url}} " target="_blank ">{{source.name}}</a>
+                    </div>
+                    <p class="card-text ">{{source.description|truncate(100)}}</p>
+
+                </div>
+
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+
+<style>
+    body {
+        background-color: blue;
+        padding-top: 100px;
+    }
+    
+    h2 {
+        color: black;
+        font-size: 50px;
+        font-family: 'Kenia','cursive';
+    }
+    
+    .container {
+        font-size: 20px;
+    }
+    
+    .box {
+        box-shadow: 0px 10px 10px #865C33;
+    }
+</style>
+
+{% endblock %}
