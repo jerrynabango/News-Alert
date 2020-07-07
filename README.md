@@ -10,7 +10,7 @@ The news informer app was created to allow the busy people to get access to news
 For one to be able to run the app one should write the following commands below:
 
 
-## BDD
+## BDD(Behaviour Driven Development)
 
 |Input            |  Behaviour             |       Output       |
 | :----------------------:|:---------------:|:------------:|
@@ -32,14 +32,14 @@ For one to be able to run the app one should write the following commands below:
 * Heroku
 
 
-##Live link to site:
+## Live link to site:
 
 ## Contact.
 Incase of any issues or clarifications you can reach me through;
       email:jerrynabango9@gmail.com
       phone number:0799900666
 
- ## License
+ ## License.
   ## TERMS AND CONDITIONS:
   1.Permission is hereby granted to any user obtaining a copy
 of this software "News-Alert App" and associated documentation files to deal
