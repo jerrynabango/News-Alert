@@ -25,7 +25,7 @@ For one to be able to run the app one should write the following commands below:
  $ source virtual/bin/activate
  $ python3 manage.py
 
-## Technologies used
+## Technologies used:
 * The python3.6
 * Flask
 * Gunicorn
@@ -34,7 +34,7 @@ For one to be able to run the app one should write the following commands below:
 
 ##Live link to site:
 
-##Contact
+## Contact.
 Incase of any issues or clarifications you can reach me through;
       email:jerrynabango9@gmail.com
       phone number:0799900666
