@@ -10,16 +10,43 @@ The news informer app was created to allow the busy people to get access to news
 For one to be able to run the app one should write the following commands below:
 
 
-## Technologies used:
-~The python3.6
-~Flask
-~Gunicorn
-~Heroku
+## BDD
 
-## Contact.
-Incase of any issues or clarifications you can reach the developer through;
+|Input            |  Behaviour             |       Output       |
+| :----------------------:|:---------------:|:------------:|
+|Navbar       | On click 'Home' |Displays the news sources
+| Navbar| On click 'Articles | Displays the news articles
+|The News Source|On click to the news source| Displays the all the latest news.
+|The News Articles| On click to read more| Displays the articles.
+
+## Setup Instructions.
+For one to be able to run the app one should write the following commands below:
+ $ python3.6 -m venv virtual
+ $ source virtual/bin/activate
+ $ python3 manage.py
+
+##Technologies used:
+* The python3.6
+* Flask
+* Gunicorn
+* Heroku
+
+
+##Live link to site:
+
+##Contact
+Incase of any issues or clarifications you can reach me through;
       email:jerrynabango9@gmail.com
       phone number:0799900666
-      Site created by Jerry Nabango.
-                Copyright(c)2020.All rights reserved.
-                P.O BOX :999666,Nairobi,Kenya
+
+ ## License
+  ## TERMS AND CONDITIONS:
+  1.Permission is hereby granted to any user obtaining a copy
+of this software "News-Alert App" and associated documentation files to deal
+in the Software without any restriction, including without limitations the rights
+to use,copy,modify,publish,distribute,sublicense,and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so freely without any restrictions.THANK YOU FOR USING THE NEWS-ALERT.
+
+   license Copyright (c)2020.All rights reserved.
+    P.o Box: 999666,Nairobi,Kenya.
