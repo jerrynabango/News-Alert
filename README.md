@@ -1,4 +1,4 @@
-##NEWS ALERT APP
+##NEWS ALERT APP.
 
 ## Developer.
 Jerry Nabango
