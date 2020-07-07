@@ -1,4 +1,4 @@
-##NEWS ALERT APP.
+## NEWS ALERT APP.
 
 ## Developer.
 Jerry Nabango
@@ -25,7 +25,7 @@ For one to be able to run the app one should write the following commands below:
  $ source virtual/bin/activate
  $ python3 manage.py
 
-##Technologies used:
+## Technologies used
 * The python3.6
 * Flask
 * Gunicorn
